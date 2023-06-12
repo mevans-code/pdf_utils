@@ -1,5 +1,11 @@
-source venv/bin/activate
+# pdf_utils
+a set of PDF utlity python scripts
 
-python delete_pdf_page.py
-
-python delete_pdf_pages.py
+**venv environment set up** 
+python -m venv venv 
+source venv/bin/activate  
+python -m pip install --upgrade pip 
+  
+**python pdf utility scripts** 
+python delete_pdf_page.py 
+python delete_pdf_pages.py  
